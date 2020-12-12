@@ -1,0 +1,20 @@
+# We're about to install deps and build project inside of a container
+node_modules
+dist
+
+# We do not need development files
+.prettierrc
+.eslintrc.js
+.gitignore
+README.md
+
+# We do not need tests in a container
+test
+*.spec.ts
+
+# We do not need Docker config files
+.dockerignore
+Dockerfile
+
+# We do not need EB files
+.elasticbeanstalk
